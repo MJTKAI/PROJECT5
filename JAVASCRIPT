@@ -9,6 +9,10 @@ basic.forever(function () {
     basic.pause(1000)
     Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 82)
     basic.pause(100)
-    Tinybit.CarCtrlSpeed2(Tinybit.CarState.Car_Run, 5, 10)
+    Tinybit.CarCtrlSpeed3(Tinybit.CarState.Car_Run, 5, 10)
     basic.pause(100)
+
+
+
+
 })
