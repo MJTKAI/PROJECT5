@@ -1,0 +1,18 @@
+basic.forever(function () {
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 59)
+    basic.pause(1000)
+    Tinybit.CarCtrl(Tinybit.CarState.Car_Left)
+    basic.pause(1000)
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Back, 85)
+    basic.pause(1000)
+    Tinybit.CarCtrl(Tinybit.CarState.Car_Right)
+    basic.pause(1000)
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 82)
+    basic.pause(100)
+    Tinybit.CarCtrlSpeed3(Tinybit.CarState.Car_Run, 5, 10)
+    basic.pause(100)
+
+
+
+
+})
